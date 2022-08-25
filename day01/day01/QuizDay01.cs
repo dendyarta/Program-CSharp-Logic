@@ -279,18 +279,7 @@ namespace day01
 
         //12.
 
-        //14.
-        public static void FindPattern()
-        {
-            Console.WriteLine("Masukan Text : ");
-            string input = Console.ReadLine();
-            Console.WriteLine("Temukan Pola : ");
-            string pola = Console.ReadLine();
-
-            int a
-
-
-        }
+        
 
         //13. Buat program untuk menampilkan berapa hari lagi ke hari jumat
         public static void nomergabelas()
@@ -301,6 +290,26 @@ namespace day01
             int dayRemaining = Sabtu - today;
             Console.WriteLine($"Hari Sabtu : {now.Add}");
             Console.WriteLine($"{dayRemaining} hari");
+        }
+
+        //14.Buat program untuk menampilkan jumlah kata yang dicari seperti contoh berikut (gunakan method IndexOf):
+        public static void FindPattern()
+        {
+            Console.WriteLine("Masukan Text : ");
+            string input = Console.ReadLine();
+            Console.WriteLine("Temukan Pola : ");
+            string pola = Console.ReadLine();
+
+            int a = 0;
+            int jumlah = 0;
+
+            while ((a = input.IndexOf(pola, a)) != -1)
+            {
+                a += pola.Length;
+                jumlah++;
+            }
+            Console.WriteLine($"{pola} muncul sebanyak : {jumlah}");
+
         }
 
         //15.
