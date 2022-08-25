@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\bin\Debug\net6.0\day01.exe
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\bin\Debug\net6.0\day01.deps.json
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\bin\Debug\net6.0\day01.runtimeconfig.json
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\bin\Debug\net6.0\day01.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\bin\Debug\net6.0\day01.pdb
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\refint\day01.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.pdb
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\day01.genruntimeconfig.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\day01\day01\obj\Debug\net6.0\ref\day01.dll
