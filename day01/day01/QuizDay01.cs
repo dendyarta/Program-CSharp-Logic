@@ -278,8 +278,27 @@ namespace day01
         }
 
         //12.
+        public static void CountStringInString()
+        {
+            Console.Write("Enter strings : ");
+            string? input = Console.ReadLine();
+            Console.Write("Find string: ");
+            string? findStr = Console.ReadLine();
 
-        
+
+
+            int position = 0;
+            int count = 0;
+            int n = findStr.Length;
+            while ((position = input.IndexOf(findStr, position)) != -1)
+            {
+                position = position + n;
+                count++;
+            }
+
+            Console.WriteLine($"Total kata yang muncul : {count.ToString()} dari text : {input}");
+        }
+
 
         //13. Buat program untuk menampilkan berapa hari lagi ke hari jumat
         public static void nomergabelas()

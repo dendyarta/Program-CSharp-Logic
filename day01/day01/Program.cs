@@ -16,7 +16,7 @@ namespace day01 // Note: actual namespace depends on the project name.
             //Console.WriteLine(StringCase.ReverseString("isw"));
             //Console.WriteLine(StringCase.ReverseStringBuilder("DOT"));
 
-            QuizDay01.nomersatu();
+            //QuizDay01.nomersatu();
             //QuizDay01.nomerdua();
             //QuizDay01.nomertiga();
             //QuizDay01.nomerempat();

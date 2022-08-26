@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace day01
+namespace Day01
 {
     internal class DateTimeCase
     {
         public static void DateTimeCases()
         {
-            DateTime now = DateTime.Now; 
+            DateTime now = DateTime.Now;
 
             int day = now.Day;
             int month = now.Month;
@@ -23,21 +23,20 @@ namespace day01
             DateTime onlyDate = now.Date;
             Console.WriteLine($"Only Date : {onlyDate}");
 
-            // day of week
+            //dayOfWeek
             DayOfWeek dayOfWeek = now.DayOfWeek;
-            DayOfWeek Kamis = DayOfWeek.Thursday;
+            DayOfWeek kamis = DayOfWeek.Thursday;
 
-            // addDays
+            //addDays
             DateTime tomorrow = now.AddDays(2);
 
-            // Selisih Hari
-            TimeSpan dateDifferemce = tomorrow - now;
-            int dayRemaining = dateDifferemce.Days;
-            Console.WriteLine($"{now} - {tomorrow}, selisih : {dayRemaining}");
+            //selisih hari
+            TimeSpan dateDifference = tomorrow - now;
+            int daysRemaining = dateDifference.Days;
+            Console.WriteLine($"{now} - {tomorrow},selisih : {daysRemaining}");
 
-            // Store Spesific date
-            DateTime birthDay = new DateTime(1998, 12, 03);
-
+            // store spesific date
+            DateTime birthDay = new DateTime(1998, 10, 21);
         }
     }
 }
