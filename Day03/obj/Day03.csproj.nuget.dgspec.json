@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\day01\\day01\\Day01.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\Day03\\Day03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\day01\\day01\\Day01.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\Day03\\Day03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\day01\\day01\\Day01.csproj",
-        "projectName": "Day01",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\day01\\day01\\Day01.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\Day03\\Day03.csproj",
+        "projectName": "Day03",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\Day03\\Day03.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\day01\\day01\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\Codeid\\Batch_17\\CSharpLogic\\Day03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace day01 // Note: actual namespace depends on the project name.
+namespace Day01 // Note: actual namespace depends on the project name.
 {
     internal class Program
     {

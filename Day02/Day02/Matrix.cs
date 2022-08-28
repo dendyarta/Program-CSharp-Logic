@@ -65,7 +65,7 @@ namespace Day02
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)//loop kolom
                 {
-                    Console.Write(matrix[i, j] + " ");
+                    Console.Write(matrix[i, j] + "\t");
                 }
                 Console.WriteLine();
             }

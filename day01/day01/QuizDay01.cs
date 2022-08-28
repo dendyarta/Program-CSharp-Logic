@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace day01
+namespace Day01
 {
     internal class QuizDay01
     {
