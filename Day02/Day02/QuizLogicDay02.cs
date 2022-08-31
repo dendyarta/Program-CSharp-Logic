@@ -421,9 +421,63 @@ namespace Day02
         //13.Buat program untuk menampilkan matrix seperti di gambar :
         public static int[,] Nomer13(int baris, int kolom)
         {
+            int n = 0;
             int[,] matrix = new int[baris, kolom];
-            
+            int kel3 = 0;
+            int urutanI = baris-1;
+            int urutanJ = kolom-1;
+            int nilaiawal = 2;
+            int kalitiga = 3;
 
+            for (int i = urutanI; i >= 0; i--)
+            {
+                n = n + 1;
+                for (int j = 0; j < kolom; j++)
+                {                  
+                    matrix[i, j] = 0;
+              
+                    if (i + j == urutanI)
+                    {
+                        if (i == j)
+                        {
+                                matrix[j, j] = kalitiga ;
+                                kalitiga = kalitiga * 3;
+                        }
+                        else
+                        {
+                                matrix[i, j] = nilaiawal;
+                                nilaiawal += 3;
+                        }
+                    }
+                }
+            }
+
+            for (int i = 0; i < baris; i++)
+            {
+                for (int j = 0; j < kolom; j++)
+                {
+                    if (i + j > urutanI)
+                    {
+                        if (j == urutanI) 
+                        {
+                            if (kel3%3 == 0)
+                            {
+                                matrix[i, j] = kalitiga;
+                                kalitiga = kalitiga * 3;
+                                kel3 = kel3 + 1;
+                            }
+                            else
+                            {
+                                matrix[i, j] = nilaiawal;
+                                nilaiawal += 3;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+/*
             // fill matrix
             for (int i = 0; i < baris; i++)
             {
@@ -433,6 +487,10 @@ namespace Day02
                     if (i == 0 && j != 0 && j == baris - 1)
                     {
                         matrix[i, j] = 20 - (3*i);
+                    }
+                    else if (i==j && i == kel3)
+                    {
+                        matrix[i, j] = 3;
                     }
                     else if (j == baris - 1 - i && i!= 0 && j!=0)
                     {
@@ -456,7 +514,9 @@ namespace Day02
                     }
                 }
 
-            }
+            }*/
+
+
             return matrix;
         }
 

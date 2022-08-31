@@ -1,7 +1,8 @@
 ﻿using Day04.PartTwo;
 
-
+Console.WriteLine();
 Console.WriteLine("============================ Implementation Interface ==========================");
+Console.WriteLine();
 
 IEmployee empInf = new EmployeeImpl();
 
@@ -21,6 +22,9 @@ Console.WriteLine("============= Salary Range =============");
 var empSalRange = empInf.FindSalaryRange(listOfEmps, 2_000_000, 4_500_000);
 empInf.ShowList(ref empSalRange);
 
+var countCarType = empInf.GetTotalEmpByRole(listOfEmps);
+empInf.ShowDict(ref countCarType);
+Console.WriteLine();
 
 Console.ReadLine();
 

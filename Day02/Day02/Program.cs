@@ -12,7 +12,7 @@ using System.Diagnostics.Metrics;
 //ArraysCase.DisplayArrayInt(myArray);
 
 //ArraysCase.InitArrayRandom(20);
-
+/*
 var myRandom = ArraysCase.InitArrayRandom(5);
 
 ArraysCase.DisplayArrayInt(myRandom);
@@ -48,7 +48,7 @@ Matrix.DisplayMatrix(myMatrix);
 WriteLine();
 var matrixDiagonal = Matrix.MatrixDiagonal(5, 5);
 Matrix.DisplayMatrix(matrixDiagonal);
-
+*/
 
 
 /*
@@ -123,11 +123,11 @@ Matrix.DisplayMatrix(Jawaban);
 var Jawaban = QuizLogicDay02.Nomer12(10, 10);
 Matrix.DisplayMatrix(Jawaban);
 */
-/*
+
 //            **** Nomer 13 ****
 var Jawaban = QuizLogicDay02.Nomer13(7, 7);
 Matrix.DisplayMatrix(Jawaban);
-*/
+
 /*
 //            **** Nomer 14 ****
 var Jawaban = QuizLogicDay02.Nomer14(7, 7);

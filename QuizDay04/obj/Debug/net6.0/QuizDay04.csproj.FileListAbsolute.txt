@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\bin\Debug\net6.0\QuizDay04.exe
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\bin\Debug\net6.0\QuizDay04.deps.json
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\bin\Debug\net6.0\QuizDay04.runtimeconfig.json
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\bin\Debug\net6.0\QuizDay04.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\bin\Debug\net6.0\QuizDay04.pdb
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\refint\QuizDay04.dll
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.pdb
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\QuizDay04.genruntimeconfig.cache
+C:\Users\Lenovo\Documents\Codeid\Batch_17\CSharpLogic\QuizDay04\obj\Debug\net6.0\ref\QuizDay04.dll

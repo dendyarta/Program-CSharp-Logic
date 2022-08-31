@@ -40,7 +40,32 @@ namespace Day04.PartTwo
 
         public Dictionary<string, int> GetTotalEmpByRole(List<Employee> list)
         {
-            throw new NotImplementedException();
+            int countSUV = 0;
+            int countTax = 0;
+            int countAng = 0;
+
+            var dict = new Dictionary<string, int>();
+
+            foreach (var item in list)
+            {
+                if (item.Role == "Programmer")
+                {
+                    countSUV++;
+                }
+                else if (item.Role == "Sales")
+                {
+                    countTax++;
+                }
+                else if (item.Role == "QA")
+                {
+                    countAng++;
+                }
+            }
+            dict.Add("Programmer", countSUV);
+            dict.Add("Sales", countTax);
+            dict.Add("QA", countAng);
+
+            return dict;
         }
 
         public decimal GetTotalSalary<T>(ref List<T> list)
@@ -105,6 +130,13 @@ namespace Day04.PartTwo
             foreach (var item in list)
             {
                 Console.WriteLine($"{item}");
+            }
+        }
+        public void ShowDict(ref Dictionary<string, int> dict)
+        {
+            foreach (var item in dict)
+            {
+                Console.WriteLine($"{item.Key} {item.Value}");
             }
         }
         //throw new NotImplementedException();

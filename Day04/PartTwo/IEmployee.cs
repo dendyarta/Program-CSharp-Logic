@@ -11,6 +11,7 @@ namespace Day04.PartTwo
         public List<Employee> InitDataEmployee();
 
         public void ShowList<T>(ref List<T> list);
+        public void ShowDict(ref Dictionary<string, int> dict);
 
         public Employee FindEmployeeById (List<Employee> list, int id);
 
