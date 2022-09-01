@@ -53,7 +53,7 @@ var listMax = listOfCustomer.Max(x => x.TotalRevenue);
 WriteLine($"Cust Min Revenue : {listMax}");
 
 var listLessThanMax = listOfCustomer.Where(x => x.TotalRevenue < listMax);
-WriteLine("==============Revenue less then Highest=================\n");
+WriteLine("\n==============Revenue less then Highest=================\n");
 
 foreach (var item in listLessThanMax)
 {

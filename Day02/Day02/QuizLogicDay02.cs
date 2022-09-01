@@ -421,9 +421,8 @@ namespace Day02
         //13.Buat program untuk menampilkan matrix seperti di gambar :
         public static int[,] Nomer13(int baris, int kolom)
         {
-            int n = 0;
             int[,] matrix = new int[baris, kolom];
-            int kel3 = 0;
+            int kel3 = 3;
             int urutanI = baris-1;
             int urutanJ = kolom-1;
             int nilaiawal = 2;
@@ -431,12 +430,14 @@ namespace Day02
 
             for (int i = urutanI; i >= 0; i--)
             {
-                n = n + 1;
                 for (int j = 0; j < kolom; j++)
                 {                  
-                    matrix[i, j] = 0;
+                    if(i == urutanI && j == 0 && j == urutanI)
+                    {
+                        matrix[i, j] = 9;
+                    }
               
-                    if (i + j == urutanI)
+                    else if (i + j == urutanI)
                     {
                         if (i == j)
                         {
@@ -449,6 +450,11 @@ namespace Day02
                                 nilaiawal += 3;
                         }
                     }
+                    else
+                    {
+                        matrix[i, j] = 0;
+                    }
+
                 }
             }
 
@@ -458,21 +464,45 @@ namespace Day02
                 {
                     if (i + j > urutanI)
                     {
-                        if (j == urutanI) 
+                        if (j == urutanI ) 
                         {
-                            if (kel3%3 == 0)
+                            
+                            if(i == 1)
                             {
-                                matrix[i, j] = kalitiga;
-                                kalitiga = kalitiga * 3;
-                                kel3 = kel3 + 1;
+                                kel3 *= 3;
+                                matrix[i, j] = kel3;
+                            }
+                            else if( i == 5)
+                            {
+                                kel3 *= 3;
+                                matrix[i, j] = kel3;
                             }
                             else
                             {
                                 matrix[i, j] = nilaiawal;
                                 nilaiawal += 3;
                             }
+                                                      
                         }
+                        else if (i== urutanI && j== urutanJ)
+                        {
+                            matrix[i, j] = nilaiawal;
+                            nilaiawal += 3;
+                        }
+                        else if (i == urutanI && j != 0 && j != urutanJ)
+                        {
+                            if (j==3)
+                            {
+                                kel3 *= 3;
+                                matrix[i, j] = kel3;
+                            }
 
+                            else
+                            {
+                                matrix[i, (i - j)] = nilaiawal;
+                                nilaiawal += 3;
+                            }
+                        }
                     }
                 }
 
